@@ -1,1 +1,0 @@
-"use strict";function aload(){var t="data-aload",e=window.document.querySelectorAll("["+t+"]");return void 0===e.length&&(e=[e]),[].forEach.call(e,function(e){e["LINK"!==e.tagName?"src":"href"]=e.getAttribute(t),e.removeAttribute(t)}),e}aload();
