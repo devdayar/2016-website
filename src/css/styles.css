@@ -1,0 +1,86 @@
+@import "linearicons";
+@import "open-sans";
+@import "tachyons";
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.bg-hero {
+    background-attachment: fixed;
+    background-image: url("/assets/images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f0 {
+    font-size: 0;
+}
+
+.img-left {
+    box-shadow: -6px 6px 0 #357edd;
+}
+
+.img-right {
+    box-shadow: 6px 6px 0 #357edd;
+}
+
+.mw9-l {
+    max-width: 70rem;
+}
+
+.ts1 {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+[data-aload] {
+    background-image: none !important;
+}
+
+@media screen and (min-width: 60em) {
+
+    @keyframes hero-animation {
+        0% {
+            background-position: top left;
+        }
+        100% {
+            background-position: top right;
+        }
+    }
+
+    .bg-hero-animation-l {
+        animation-direction: alternate;
+        animation-duration: 45s;
+        animation-iteration-count: infinite;
+        animation-name: hero-animation;
+        animation-timing-function: linear;
+    }
+
+    .img-left {
+        transition: all 1s cubic-bezier(0.22, 0.68, 0, 1.71);
+    }
+
+    .img-left-trigger-l:hover .img-left {
+        box-shadow: 10px 10px 0 #357edd;
+        transform: scale(1.05) translateX(-15px);
+    }
+
+    .img-right {
+        transition: all 1s cubic-bezier(0.22, 0.68, 0, 1.71);
+    }
+
+    .img-right-trigger-l:hover .img-right {
+        box-shadow: -10px 10px 0 #357edd;
+        transform: scale(1.05) translateX(15px);
+    }
+
+    .vh-100-l {
+        height: 100vh;
+        min-height: 500px;
+    }
+
+    .wc {
+        will-change: transform;
+    }
+}
