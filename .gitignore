@@ -4,3 +4,7 @@ node_modules
 # files
 *.log
 .DS_Store
+
+# hack: ignore the folder content but keep the folder
+dist/*
+!dist/.gitkeep
