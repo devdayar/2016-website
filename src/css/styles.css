@@ -40,23 +40,6 @@ body {
 
 @media screen and (min-width: 60em) {
 
-    @keyframes hero-animation {
-        0% {
-            background-position: top left;
-        }
-        100% {
-            background-position: top right;
-        }
-    }
-
-    .bg-hero-animation-l {
-        animation-direction: alternate;
-        animation-duration: 45s;
-        animation-iteration-count: infinite;
-        animation-name: hero-animation;
-        animation-timing-function: linear;
-    }
-
     .img-left {
         transition: all 1s cubic-bezier(0.22, 0.68, 0, 1.71);
     }
