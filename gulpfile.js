@@ -85,7 +85,8 @@ gulp.task('minify-html', cb => {
   pump([
     gulp.src('src/*.html'),
     htmlmin({
-      collapseWhitespace: true
+      collapseWhitespace: true,
+      removeComments: true
     }),
     gulp.dest('./dist'),
     browserSync.stream()
