@@ -27,8 +27,8 @@
                 <h1 class="f2 f1-l ma0 tc">DevDayAR 2016</h1>
                 <p class="f3 f2-l i ma0 pb6 tc white-80">Un evento enfocado en las <span class="b white">personas</span></p>
                 <div class="f0 mv6 tc">
-                    <a href="#!" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ttu v-mid white">¡Quiero ir!</a>
-                    <!-- <a href="#agenda" class="b b--black-20 ba bg-green bw2 dib dosis f5 f4-m f4-l link ml4 ph2 ph3-l pv2 pv3-l tracked ttu v-mid white">Agenda</a> -->
+                    <a style="visibility: hidden;" href="#acerca-del-evento" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ttu v-mid white">¡Quiero ir!</a>
+                    <a style="visibility: hidden;" href="#agenda" class="b b--black-20 ba bg-green bw2 dib dosis f5 f4-m f4-l link ml4 ph2 ph3-l pv2 pv3-l tracked ttu v-mid white">Agenda</a>
                 </div>
                 <div class="cf">
                     <div class="fl-l w-30-l tc-m tc-l">
@@ -53,7 +53,7 @@
             </div>
         </div>
     </header>
-    <div class="b--black-10 bb bg-white-80 bw2 img-left-trigger-l ph3 pv5">
+    <div id="acerca-del-evento" class="b--black-10 bg-white-90 bw2 img-left-trigger-l ph3 pv5">
         <div class="center mw9-l">
             <div class="mb5 tc">
                 <h2 class="blue f3 f2-l ma0 tracked ttu">Acerca del evento</h2>
@@ -69,14 +69,15 @@
                         <p class="mv3">¿Qué tal si nos reunimos todos en un mismo lugar a compartir lo que sabemos y a mostrar lo que nos gusta hacer?.</p>
                         <p class="b black mv3">DevDayAR 2016 busca ser un día de aprendizaje diferente, brindando el espacio para debatir y aprender acerca de los demás.</p>
                         <p class="mv3"><span class="i">No importa si sos nuevo o experto</span>. Dejemos que este espacio sirva para conocernos, debatir y crear una atmósfera donde todos nos llevemos algo.</p>
-                        <p class="ma0">Por último, te contamos que disponemos de un <a href="codigo-de-conducta.html" class="b blue link">código de conducta</a> que te invitamos a leer.</p>
+                        <p class="mv3">El evento respeta un <a href="codigo-de-conducta.html" class="b blue link">código de conducta</a> que te invitamos a leer.</p>
+                        <p class="ma0">Por último, te contamos que las inscripciones se abren el <span class="b black">XX de XXXXXXXXXX</span>.</p>
                     </div>
                 </div>
             </div>
-            <div class="mt5 tc">
+            <!-- <div class="mt5 tc">
                 <span class="black-60 db dib-m dib-l i mb3 mb0-m mb0-l mr3-m mr4-l v-mid">¿Te gustaría ser parte?.</span>
                 <a href="#!" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ts1 ttu v-mid white">¡Anotate!</a>
-            </div>
+            </div> -->
         </div>
     </div>
     <!-- <div id="agenda" class="bg-white-90 ph3 pv5">
@@ -119,7 +120,7 @@
             </div>
         </div>
     </div> -->
-    <div class="b--black-10 bb bt bg-white-80 bw2 ph3 pv5">
+    <div id="sponsors" class="b--black-10 bb bt bg-white-80 bw2 ph3 pv5">
         <div class="center mw9-l">
             <div class="mb5 tc">
                 <h2 class="blue f3 f2-l ma0 tracked ttu">Sponsors</h2>
@@ -141,7 +142,7 @@
             </div>
         </div>
     </div>
-    <div class="bg-white-90 ph3 pv5">
+    <div id="sede" class="bg-white-90 ph3 pv5">
         <div class="center mw9-l">
             <div class="mb5 tc">
                 <h2 class="blue f3 f2-l ma0 tracked ttu">Sede</h2>
@@ -194,13 +195,13 @@
             <div class="black-60 mv4">
                 <p class="ma0">Gracias <span class="b black i">Microsoft</span> por tu apertura y la disponibilidad de tus instalaciones.</p>
             </div>
-            <div class="mb0 mt5 tc">
-                <span class="black db dib-l i mb3 mr4-l mb0-l v-mid">Te esperamos en <span class="b">Bouchard 710, CABA.</span></span>
+            <div class="mt5 tc">
+                <span class="black-60 db dib-l i mb3 mr4-l mb0-l v-mid">Te esperamos en <span class="b">Bouchard 710, CABA.</span></span>
                 <a href="https://goo.gl/maps/Wkj7MLvJ9YP2" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ts1 ttu v-mid white">Ver en Google Maps</a>
             </div>
         </div>
     </div>
-    <div class="b--black-10 bb bt bg-white-80 bw2 ph3 pv5">
+    <div id="organizadores" class="b--black-10 bb bt bg-white-80 bw2 ph3 pv5">
         <div class="center mw9-l">
             <div class="tc mb5">
                 <h2 class="blue f3 f2-l ma0 tracked ttu">Organizadores</h2>
@@ -211,14 +212,14 @@
                 </div>
                 <div class="fl-m fl-l w-70-m w-80-l">
                     <div class="ml4-m ml4-l">
-                        <h3 class="f4 f3-l mv4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Cristhian Duran</h3>
-                        <div class="black-60">
-                            <p class="ma0">Desarrollador Front-End en Acamica y co-organizador de <a href="https://twitter.com/nodeschoolba" class="b blue link" target="_blank">NodeSchool en Buenos Aires</a>.</p>
-                        </div>
-                        <a href="https://twitter.com/durancristhian" target="_blank" class="blue dib f0 link mt4">
+                        <h3 class="f4 f3-l mb0 mt4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Cristhian Duran</h3>
+                        <a href="https://twitter.com/durancristhian" target="_blank" class="blue db dib-m dib-l f0 link mb4 mt2 tc tl-m tl-l">
                             <span class="dib f4 lnr lnr-link v-mid"></span>
                             <span class="dib f5 ml3 v-mid">Twitter</span>
                         </a>
+                        <div class="black-60">
+                            <p class="ma0">Desarrollador Front-End en Acamica y co-organizador de <a href="https://twitter.com/nodeschoolba" class="b blue link" target="_blank">NodeSchool en Buenos Aires</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -228,15 +229,15 @@
                 </div>
                 <div class="fl-m fl-l w-70-m w-80-l">
                     <div class="ml4-m ml4-l">
-                        <h3 class="f4 f3-l mv4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Germán Küber</h3>
+                        <h3 class="f4 f3-l mb0 mt4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Germán Küber</h3>
+                        <a href="https://twitter.com/germankuber" target="_blank" class="blue db dib-m dib-l f0 link mb4 mt2 tc tl-m tl-l">
+                            <span class="dib f4 lnr lnr-link v-mid"></span>
+                            <span class="dib f5 ml3 v-mid">Twitter</span>
+                        </a>
                         <div class="black-60">
                             <p class="ma0">Mas de 7 años trabajando como desarrollador Back-End (siempre haciendo foco en el ecosistema Microsoft). Mas de 2 años trabajando con tecnologías Front-End.</p>
                             <p class="mb0 mt3">Apasionado por: C#, Angular, TypeScript, JavaScript y la arquitectura de software.</p>
                         </div>
-                        <a href="https://twitter.com/germankuber" target="_blank" class="blue dib f0 link mt4">
-                            <span class="dib f4 lnr lnr-link v-mid"></span>
-                            <span class="dib f5 ml3 v-mid">Twitter</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -246,15 +247,15 @@
                 </div>
                 <div class="fl-m fl-l w-70-m w-80-l">
                     <div class="ml4-m ml4-l">
-                        <h3 class="f4 f3-l mv4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Nicolás Bello Camilletti</h3>
+                        <h3 class="f4 f3-l mb0 mt4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Nicolás Bello Camilletti</h3>
+                        <a href="https://twitter.com/nbellocam" target="_blank" class="blue db dib-m dib-l f0 link mb4 mt2 tc tl-m tl-l">
+                            <span class="dib f4 lnr lnr-link v-mid"></span>
+                            <span class="dib f5 ml3 v-mid">Twitter</span>
+                        </a>
                         <div class="black-60">
                             <p class="ma0">Nicolás es ingeniero en informática y licenciado en sistemas. Trabaja como full-stack developer en Southworks. Aparte de esto, es <a href="https://mvp.microsoft.com/en-us/PublicProfile/5001738" class="b blue link" target="_blank">Microsoft MVP</a>. Normalmente trabaja con las últimas tecnologías especialmente relacionadas con Cloud Computing y Web Development usando C# y Node.js.</p>
                             <p class="mb0 mt3">Aparte organiza los meetups de <a href="https://www.meetup.com/Buenos-Aires-Cloud-Computing/" class="b blue link" target="_blank">Cloud Computing</a>, <a href="https://www.meetup.com/Net-Baires/" class="b blue link" target="_blank">Net-Baires</a> y <a href="https://www.youtube.com/channel/UC2HK4gLLoBUnQT5KBGUkM4g" class="b blue link" target="_blank">ASP.NET Community Standup LATAM</a>.</p>
                         </div>
-                        <a href="https://twitter.com/nbellocam" target="_blank" class="blue dib f0 link mt4">
-                            <span class="dib f4 lnr lnr-link v-mid"></span>
-                            <span class="dib f5 ml3 v-mid">Twitter</span>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -264,20 +265,24 @@
                 </div>
                 <div class="fl-m fl-l w-70-m w-80-l">
                     <div class="ml4-m ml4-l">
-                        <h3 class="f4 f3-l mv4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Nicolas Isnardi</h3>
-                        <div class="black-60">
-                            <p class="ma0">Desarrollador JavaScript, co-organizador de <a href="https://www.meetup.com/Meetup-js/" class="b blue link" target="_blank">Meetup.js</a>, <a href="https://www.meetup.com/beerjs-ba/" class="b blue link" target="_blank">Beer.js</a> y <a href="https://twitter.com/nodeschoolba" class="b blue link" target="_blank">NodeSchool en Buenos Aires</a>.</p>
-                        </div>
-                        <a href="https://twitter.com/isnardi" target="_blank" class="blue dib f0 link mt4">
+                        <h3 class="f4 f3-l mb0 mt4 mt0-m mt0-l tc tl-m tl-l tracked ttu">Nicolas Isnardi</h3>
+                        <a href="https://twitter.com/isnardi" target="_blank" class="blue db dib-m dib-l f0 link mb4 mt2 tc tl-m tl-l">
                             <span class="dib f4 lnr lnr-link v-mid"></span>
                             <span class="dib f5 ml3 v-mid">Twitter</span>
                         </a>
+                        <div class="black-60">
+                            <p class="ma0">Desarrollador JavaScript, co-organizador de <a href="https://www.meetup.com/Meetup-js/" class="b blue link" target="_blank">Meetup.js</a>, <a href="https://www.meetup.com/beerjs-ba/" class="b blue link" target="_blank">Beer.js</a> y <a href="https://twitter.com/nodeschoolba" class="b blue link" target="_blank">NodeSchool en Buenos Aires</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <div class="mt5 tc">
+                <span class="black-60 db dib-l i mb3 mr4-l mb0-l v-mid">¿Querés contactarnos?.</span></span>
+                <a href="#!" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ts1 ttu v-mid white">Hacelo por acá</a>
+            </div>
         </div>
     </div>
-    <div class="bg-white-90 ph3 pv5">
+    <div id="devdayar-2015" class="bg-white-90 ph3 pv5">
         <div class="center mw9-l">
             <div class="mb5 tc">
                 <h2 class="blue f3 f2-l ma0 tracked ttu">DevDayAR 2015</h2>
@@ -309,7 +314,7 @@
                     </div>
                 </div>
             </div>
-            <div class="mb0 mt5 tc">
+            <div class="mt5 tc">
                 <span class="black-60 db dib-m dib-l i mb3 mr3-m mr4-l mb0-m mb0-l v-mid">Y también sacamos <span class="b">MUCHAS</span> fotos.</span>
                 <a href="https://www.facebook.com/a0viedo/media_set?set=a.10153204777496044.1073741839.716631043" target="_blank" class="b b--black-20 ba bg-gold bw2 dib dosis f5 f4-m f4-l link ph2 ph3-l pv2 pv3-l tracked ts1 ttu v-mid white">¡Quiero verlas!</a>
             </div>
