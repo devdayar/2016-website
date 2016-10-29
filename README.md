@@ -8,3 +8,10 @@ Live demo en Github Pages: [DevDayAR 2016](http://devday-ar.com/)
 npm i
 npm start
 ```
+
+## Deployment
+
+```bash
+npm run build
+npm run deploy
+```
