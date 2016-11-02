@@ -72,7 +72,7 @@ gulp.task('copy-assets', ['clean-assets'], cb => {
 gulp.task('copy-cname', cb => {
   pump([
     gulp.src([
-      'cname'
+      'CNAME'
     ]),
     gulp.dest('dist')
   ], cb)
