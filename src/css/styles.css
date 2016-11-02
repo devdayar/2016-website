@@ -64,7 +64,7 @@ h6,
 @media screen and (min-width: 60em) {
 
     .img-left {
-        transition: all 1s cubic-bezier(0.22, 0.68, 0, 1.71);
+        transition: all .3s ease;
     }
 
     .img-left-trigger-l:hover .img-left {
@@ -73,7 +73,7 @@ h6,
     }
 
     .img-right {
-        transition: all 1s cubic-bezier(0.22, 0.68, 0, 1.71);
+        transition: all .3s ease;
     }
 
     .img-right-trigger-l:hover .img-right {
