@@ -54,11 +54,13 @@ gulp.task('build-js', ['clean-js', 'lint-js'], cb => {
   ], cb)
 })
 
+gulp.task('clean-assets', () => del('dist/assets/**/*.*'))
+
 gulp.task('clean-css', () => del('dist/css/*.css'))
 
 gulp.task('clean-js', () => del('dist/js/*.js'))
 
-gulp.task('copy-assets', cb => {
+gulp.task('copy-assets', ['clean-assets'], cb => {
   pump([
     gulp.src([
       'src/assets/**/*.*'
