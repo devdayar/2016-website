@@ -12,7 +12,7 @@ const rename = require('gulp-rename')
 const standard = require('gulp-standard')
 const uglify = require('gulp-uglify')
 
-gulp.task('build', ['minify-html', 'build-css', 'build-js', 'copy-assets'])
+gulp.task('build', ['minify-html', 'build-css', 'build-js', 'copy-assets', 'copy-cname'])
 
 gulp.task('build-css', ['clean-css'], cb => {
   pump([
@@ -64,6 +64,15 @@ gulp.task('copy-assets', cb => {
       'src/assets/**/*.*'
     ]),
     gulp.dest('dist/assets')
+  ], cb)
+})
+
+gulp.task('copy-cname', cb => {
+  pump([
+    gulp.src([
+      'cname'
+    ]),
+    gulp.dest('dist')
   ], cb)
 })
 
