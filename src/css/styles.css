@@ -26,6 +26,21 @@ h6,
     font-size: 0;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+
 .img-left {
     box-shadow: -6px 6px 0 #357edd;
 }
