@@ -49,6 +49,10 @@ h6,
     box-shadow: 6px 6px 0 #357edd;
 }
 
+.mh-200 {
+    max-height: 200px;
+}
+
 .mw9-l {
     max-width: 70rem;
 }
