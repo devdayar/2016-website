@@ -144,3 +144,33 @@ Array.prototype.forEach.call(menuLinks, link => {
     animateScroll(elementToScrollTo, 1000, 'easeInOutQuint', nav.offsetHeight)
   })
 })
+
+// --------------------------------------------------
+//      In-page navigation
+// --------------------------------------------------
+
+const goToLinks = document.querySelectorAll('.js-go-to')
+
+const closeMenuIfOpen = () => {
+  if (menuToggle.classList.contains('is-active')) {
+    menu.classList.add('dn')
+    menu.classList.remove('db')
+    menu.classList.remove('fadeIn')
+
+    menuToggle.textContent = '☰ Menú'
+
+    menuToggle.classList.remove('is-active')
+  }
+}
+
+Array.prototype.forEach.call(goToLinks, link => {
+  link.addEventListener('click', e => {
+    e.preventDefault()
+
+    const elementToScrollTo = document.querySelector(e.currentTarget.getAttribute('href'))
+
+    closeMenuIfOpen()
+
+    animateScroll(elementToScrollTo, 1000, 'easeInOutQuint', nav.offsetHeight)
+  })
+})
