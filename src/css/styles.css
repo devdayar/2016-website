@@ -73,28 +73,3 @@ h6 {
 [data-aload] {
     background-image: none !important;
 }
-
-@media screen and (min-width: 60em) {
-
-    .img-left {
-        transition: all .3s ease;
-    }
-
-    .img-left-trigger-l:hover .img-left {
-        box-shadow: 10px 10px 0 #357edd;
-        transform: scale(1.05) translateX(-15px);
-    }
-
-    .img-right {
-        transition: all .3s ease;
-    }
-
-    .img-right-trigger-l:hover .img-right {
-        box-shadow: -10px 10px 0 #357edd;
-        transform: scale(1.05) translateX(15px);
-    }
-
-    .wc {
-        will-change: transform;
-    }
-}
