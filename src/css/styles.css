@@ -10,16 +10,12 @@ h6 {
     font-family: "Ubuntu", sans-serif;
 }
 
-.bg-hero {
-    background-attachment: fixed;
-    background-image: url("../assets/images/hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .bg-light-gray {
     background-color: #f1f1f1;
+}
+
+.bg-light-purple {
+    background-color: #9763f8;
 }
 
 .bg-purple {
@@ -49,16 +45,12 @@ h6 {
   animation-name: fadeIn;
 }
 
-.img-left {
-    box-shadow: -6px 6px 0 #51ffe1;
-}
-
-.img-right {
-    box-shadow: 6px 6px 0 #51ffe1;
-}
-
 .light-purple {
     color: #9763f8;
+}
+
+.light-purple-80 {
+    color: rgba(151, 99, 248, .8);
 }
 
 .mh-100 {
@@ -75,6 +67,14 @@ h6 {
 
 .purple {
     color: #242352;
+}
+
+.shadow-left {
+    box-shadow: -6px 6px 0 #51ffe1;
+}
+
+.shadow-right {
+    box-shadow: 6px 6px 0 #51ffe1;
 }
 
 .ts1 {
