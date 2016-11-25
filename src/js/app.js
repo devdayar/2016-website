@@ -123,8 +123,8 @@ const toggleMenu = () => {
 
   menuToggle.classList.toggle('is-active')
 
-  nav.classList.toggle('bg-black-40')
-  nav.classList.toggle('bg-black-90')
+  nav.classList.toggle('bg-purple-80')
+  nav.classList.toggle('bg-purple')
 }
 
 menuToggle.addEventListener('click', e => {

@@ -26,6 +26,10 @@ h6 {
     background-color: #242352;
 }
 
+.bg-purple-80 {
+    background-color: rgba(36, 35, 82, .8);
+}
+
 .f0 {
     font-size: 0;
 }
