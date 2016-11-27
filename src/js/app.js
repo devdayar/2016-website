@@ -174,3 +174,30 @@ Array.prototype.forEach.call(goToLinks, link => {
     animateScroll(elementToScrollTo, 1000, 'easeInOutQuint', nav.offsetHeight)
   })
 })
+
+// --------------------------------------------------
+//      Toggle speaker's bio
+// --------------------------------------------------
+
+const toggleBioLinks = document.querySelectorAll('.js-toggle-speaker-bio')
+
+Array.prototype.forEach.call(toggleBioLinks, link => {
+  link.addEventListener('click', e => {
+    e.preventDefault()
+
+    const currentLinK = e.target
+    const nextSibling = currentLinK.previousSibling
+
+    if (nextSibling.classList.contains('is-shown')) {
+      currentLinK.textContent = 'Leer más'
+
+      nextSibling.classList.add('dn')
+      nextSibling.classList.remove('is-shown')
+    } else {
+      currentLinK.textContent = 'Leer menos'
+
+      nextSibling.classList.remove('dn')
+      nextSibling.classList.add('is-shown')
+    }
+  })
+})
