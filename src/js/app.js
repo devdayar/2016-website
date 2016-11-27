@@ -116,9 +116,9 @@ const toggleMenu = () => {
   menu.classList.toggle('fadeIn')
 
   if (menuToggle.classList.contains('is-active')) {
-    menuToggle.textContent = '☰ Menú'
+    menuToggle.textContent = 'Menú'
   } else {
-    menuToggle.textContent = '✖ Cerrar'
+    menuToggle.textContent = 'Cerrar'
   }
 
   menuToggle.classList.toggle('is-active')
