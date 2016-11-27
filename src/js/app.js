@@ -123,7 +123,7 @@ const toggleMenu = () => {
 
   menuToggle.classList.toggle('is-active')
 
-  nav.classList.toggle('bg-light-purple')
+  nav.classList.toggle('bg-light-purple-90')
   nav.classList.toggle('bg-purple-80')
 }
 

@@ -1,21 +1,11 @@
 @import "tachyons";
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Ubuntu", sans-serif;
-}
-
 .bg-light-gray {
     background-color: #f1f1f1;
 }
 
-.bg-light-purple {
-    background-color: #9763f8;
+.bg-light-purple-90 {
+    background-color: rgba(151, 99, 248, .9);
 }
 
 .bg-purple {
