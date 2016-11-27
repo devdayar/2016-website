@@ -36,6 +36,10 @@ body {
   animation-name: fadeIn;
 }
 
+.h-150 {
+    height: 150px;
+}
+
 .light-purple {
     color: #9763f8;
 }
