@@ -1,5 +1,9 @@
 @import "tachyons";
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .bg-light-gray {
     background-color: #f1f1f1;
 }
