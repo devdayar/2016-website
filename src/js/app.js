@@ -192,11 +192,13 @@ Array.prototype.forEach.call(toggleBioLinks, link => {
       currentLinK.textContent = 'Leer más'
 
       nextSibling.classList.add('dn')
+      nextSibling.classList.remove('fadeIn')
       nextSibling.classList.remove('is-shown')
     } else {
       currentLinK.textContent = 'Leer menos'
 
       nextSibling.classList.remove('dn')
+      nextSibling.classList.add('fadeIn')
       nextSibling.classList.add('is-shown')
     }
   })
