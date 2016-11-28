@@ -48,6 +48,10 @@ body {
     color: rgba(151, 99, 248, .8);
 }
 
+.mh-125 {
+    max-height: 125px;
+}
+
 .mw9-l {
     max-width: 70rem;
 }
