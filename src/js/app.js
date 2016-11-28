@@ -179,7 +179,7 @@ Array.prototype.forEach.call(goToLinks, link => {
 //      Toggle speaker's bio
 // --------------------------------------------------
 
-const toggleBioLinks = document.querySelectorAll('.js-toggle-speaker-bio')
+const toggleBioLinks = document.querySelectorAll('.js-toggle-previous-sibling')
 
 Array.prototype.forEach.call(toggleBioLinks, link => {
   link.addEventListener('click', e => {

@@ -21,6 +21,14 @@ body {
     background-color: rgba(36, 35, 82, .8);
 }
 
+.bullet:before {
+    color: #9763f8;
+    content: "•";
+    display: inline-block;
+    font-weight: bold;
+    margin-right: .5rem;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
