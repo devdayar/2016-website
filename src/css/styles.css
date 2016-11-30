@@ -13,6 +13,10 @@ body {
     background-color: #1b1842;
 }
 
+.bg-hero {
+    background-image: url("/assets/images/backgrounds/hero.png");
+}
+
 .bg-light-gray {
     background-color: #f1f1f1;
 }
@@ -115,11 +119,6 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75);
 }
 
-.vh-100 {
-    height: 100vh;
-    min-height: 650px;
-}
-
 [data-aload] {
     background-image: none !important;
 }
@@ -128,5 +127,10 @@ body {
 
     .f2-l {
         font-size: 1.75rem;
+    }
+
+    .vh-100-l {
+        height: 100vh;
+        min-height: 650px;
     }
 }
