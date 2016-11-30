@@ -27,14 +27,14 @@
       "properties": {
         "ligatures": "file-text2, file4",
         "name": "file-text2",
-        "id": 38,
+        "id": 0,
         "order": 9,
         "prevSize": 32,
         "code": 59686
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 38
+      "setId": 1,
+      "iconIdx": 0
     },
     {
       "icon": {
@@ -56,14 +56,14 @@
       "properties": {
         "ligatures": "location2, map-marker2",
         "name": "location2",
-        "id": 72,
+        "id": 1,
         "order": 7,
         "prevSize": 32,
         "code": 59720
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 72
+      "setId": 1,
+      "iconIdx": 1
     },
     {
       "icon": {
@@ -87,14 +87,14 @@
       "properties": {
         "ligatures": "calendar, date",
         "name": "calendar",
-        "id": 83,
+        "id": 2,
         "order": 8,
         "prevSize": 32,
         "code": 59731
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 83
+      "setId": 1,
+      "iconIdx": 2
     },
     {
       "icon": {
@@ -119,14 +119,14 @@
       "properties": {
         "ligatures": "display, screen",
         "name": "display",
-        "id": 86,
+        "id": 3,
         "order": 6,
         "prevSize": 32,
         "code": 59734
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 86
+      "setId": 1,
+      "iconIdx": 3
     },
     {
       "icon": {
@@ -153,14 +153,14 @@
       "properties": {
         "ligatures": "mail3, contact3",
         "name": "mail2",
-        "id": 388,
+        "id": 4,
         "order": 3,
         "prevSize": 32,
         "code": 60036
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 388
+      "setId": 1,
+      "iconIdx": 4
     },
     {
       "icon": {
@@ -183,14 +183,14 @@
       "properties": {
         "ligatures": "twitter, brand16",
         "name": "twitter",
-        "id": 406,
+        "id": 5,
         "order": 2,
         "prevSize": 32,
         "code": 60054
       },
       "setIdx": 0,
-      "setId": 0,
-      "iconIdx": 406
+      "setId": 1,
+      "iconIdx": 5
     },
     {
       "icon": {
@@ -213,14 +213,43 @@
       "properties": {
         "ligatures": "github, brand40",
         "name": "github",
-        "id": 432,
+        "id": 6,
         "order": 4,
         "prevSize": 32,
         "code": 60080
       },
       "setIdx": 0,
+      "setId": 1,
+      "iconIdx": 6
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM384 832h-128v-448h128v448zM320 320c-35.4 0-64-28.6-64-64s28.6-64 64-64c35.4 0 64 28.6 64 64s-28.6 64-64 64zM832 832h-128v-256c0-35.4-28.6-64-64-64s-64 28.6-64 64v256h-128v-448h128v79.4c26.4-36.2 66.8-79.4 112-79.4 79.6 0 144 71.6 144 160v288z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "linkedin",
+          "brand",
+          "social"
+        ],
+        "defaultCode": 60105,
+        "grid": 16
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "linkedin, brand64",
+        "name": "linkedin",
+        "id": 457,
+        "order": 10,
+        "prevSize": 32,
+        "code": 60105
+      },
+      "setIdx": 1,
       "setId": 0,
-      "iconIdx": 432
+      "iconIdx": 457
     }
   ],
   "height": 1024,
