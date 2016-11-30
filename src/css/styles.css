@@ -52,10 +52,6 @@ body {
   animation-name: fadeIn;
 }
 
-.h-150 {
-    height: 150px;
-}
-
 .light-purple {
     color: #9763f8;
 }
@@ -76,7 +72,7 @@ body {
     color: #242352;
 }
 
-.schedule {
+/*.schedule {
     margin-left: 75px;
 }
 
@@ -105,7 +101,7 @@ body {
     text-align: right;
     top: 2px;
     width: 5rem;
-}
+}*/
 
 .shadow-left {
     box-shadow: -6px 6px 0 #51ffe1;
@@ -126,4 +122,11 @@ body {
 
 [data-aload] {
     background-image: none !important;
+}
+
+@media screen and (min-width: 60em) {
+
+    .f2-l {
+        font-size: 1.75rem;
+    }
 }
