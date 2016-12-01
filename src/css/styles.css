@@ -14,7 +14,9 @@ body {
 }
 
 .bg-hero {
+    background-attachment: fixed;
     background-image: url("/assets/images/backgrounds/hero.png");
+    background-position: center;
 }
 
 .bg-light-gray {
@@ -124,6 +126,20 @@ body {
 }
 
 @media screen and (min-width: 60em) {
+
+    @keyframes move {
+        0% {
+            background-position: 0 0;
+        }
+
+        100% {
+            background-position: 100% center;
+        }
+    }
+
+    .bg-hero {
+        animation: move 3s ease-in-out infinite alternate;
+    }
 
     .f2-l {
         font-size: 1.75rem;
