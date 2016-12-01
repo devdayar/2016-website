@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "gulp build",
-    "deploy": "git add -A; git commit -m -- && git push origin master && gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "start": "gulp"
   },
   "dependencies": {
