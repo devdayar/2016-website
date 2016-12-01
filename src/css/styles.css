@@ -74,6 +74,10 @@ body {
     max-width: 70rem;
 }
 
+.mw24 {
+    max-width: 24rem;
+}
+
 .purple {
     color: #242352;
 }

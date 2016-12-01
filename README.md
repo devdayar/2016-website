@@ -13,5 +13,8 @@ npm start
 
 ```bash
 npm run build
+git add -A
+git commit -m "My awesome commit"
+git push origin master
 npm run deploy
 ```
