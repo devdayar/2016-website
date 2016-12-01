@@ -99,7 +99,7 @@ function aload () {
   return nodes
 }
 
-aload()
+window.onload = aload()
 
 // --------------------------------------------------
 //      Menu
