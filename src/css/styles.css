@@ -58,6 +58,10 @@ body {
   animation-name: fadeIn;
 }
 
+.light-green {
+    color: ##51ffe1;
+}
+
 .light-purple {
     color: #9763f8;
 }
