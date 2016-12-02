@@ -82,7 +82,7 @@ body {
     color: #242352;
 }
 
-/*.schedule {
+.schedule {
     margin-left: 75px;
 }
 
@@ -111,7 +111,7 @@ body {
     text-align: right;
     top: 2px;
     width: 5rem;
-}*/
+}
 
 .shadow-left {
     box-shadow: -6px 6px 0 #51ffe1;
