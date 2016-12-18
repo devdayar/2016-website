@@ -1,6 +1,6 @@
 @font-face {
     font-family: "icons";
-    src: url("/assets/fonts/icons.ttf?g35qz4") format("truetype"), url("/assets/fonts/icons.woff?g35qz4") format("woff"), url("/assets/fonts/icons.svg?g35qz4#icons") format("svg");
+    src: url("/assets/fonts/icons.ttf?pcrv5j") format("truetype"), url("/assets/fonts/icons.woff?pcrv5j") format("woff"), url("/assets/fonts/icons.svg?pcrv5j#icons") format("svg");
     font-weight: normal;
     font-style: normal;
 }
@@ -42,5 +42,11 @@
     content: "\eab0";
 }
 .icon-linkedin:before {
-  content: "\eac9";
+    content: "\eac9";
+}
+.icon-facebook2:before {
+    content: "\ea91";
+}
+.icon-youtube:before {
+    content: "\ea9d";
 }
